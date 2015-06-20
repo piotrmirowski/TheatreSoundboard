@@ -14,8 +14,8 @@ Minimum Android version 4.1 (Jelly Bean)
 
 # Changing the sound files
 The music and sound effect files are stored in res/raw as `.mp3` files.
-If you want to add new sounds, remember that filenames need to be lowercase and alphanumeric only, e.g.: `**music01.mp3**`
-Any resource file, e.g., `**newfile.mp3**`, can then be references in the code in the following object:
+If you want to add new sounds, remember that filenames need to be lowercase and alphanumeric only, e.g.: `music01.mp3`
+Any resource file, e.g., `newfile.mp3`, can then be references in the code in the following object:
 ```
 R.raw.newfile
 ```
@@ -42,7 +42,7 @@ You can see that individual buttons have callbacks, e.g.:
     android:text="Music 01" />
 ```
 The text and click hint on the button can be easily modified.
-The callback function `**playMusic01**` needs to be implemented in the main code as following:
+The callback function `playMusic01` needs to be implemented in the main code as following:
 ```java
 public void playMusic15(View view) {
   // some code
