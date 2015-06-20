@@ -1,0 +1,267 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.piotr.theatresoundboard.TheatreSoundboard" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 00"
+                android:onClick="playMusic00"
+                android:text="Music 00" />
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 01"
+                android:onClick="playMusic01"
+                android:text="Music 01" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 02"
+                android:onClick="playMusic02"
+                android:text="Music 02" />
+
+            <Button
+                android:id="@+id/button03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 03"
+                android:onClick="playMusic03"
+                android:text="Music 03" />
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+            <Button
+                android:id="@+id/button04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 04"
+                android:onClick="playMusic04"
+                android:text="Music 04" />
+
+            <Button
+                android:id="@+id/button05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 05"
+                android:onClick="playMusic05"
+                android:text="Music 05" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 06"
+                android:onClick="playMusic06"
+                android:text="Music 06" />
+
+            <Button
+                android:id="@+id/button07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 07"
+                android:onClick="playMusic07"
+                android:text="Music 07" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 08"
+                android:onClick="playMusic08"
+                android:text="Music 08" />
+
+            <Button
+                android:id="@+id/button09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 09"
+                android:onClick="playMusic09"
+                android:text="Music 09" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 10"
+                android:onClick="playMusic10"
+                android:text="Music 10" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 11"
+                android:onClick="playMusic11"
+                android:text="Music 11" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 12"
+                android:onClick="playMusic12"
+                android:text="Music 12" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 13"
+                android:onClick="playMusic13"
+                android:text="Music 13" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 14"
+                android:onClick="playMusic14"
+                android:text="Music 14" />
+            
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Music 15"
+                android:onClick="playMusic15"
+                android:text="Music 15" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonSound00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SOUND EFFECT 00"
+                android:onClick="playSound00"
+                android:text="SOUND EFFECT 00" />
+            
+            <Button
+                android:id="@+id/buttonSound01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="SOUND EFFECT 01"
+                android:onClick="playSound01"
+                android:text="SOUND EFFECT 01" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="STOP"
+                android:onClick="stopAll"
+                android:text="STOP" />
+            
+            <TextView
+                android:id="@+id/textField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonMuteSlow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="MUTE SLOW"
+                android:onClick="muteSlow"
+                android:text="MUTE SLOW" />
+            
+            <Button
+                android:id="@+id/buttonMuteFast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="MUTE FAST"
+                android:onClick="muteFast"
+                android:text="MUTE FAST" />
+            
+        </TableRow>
+        
+    </TableLayout>
+
+</RelativeLayout>
