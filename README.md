@@ -44,7 +44,7 @@ You can see that individual buttons have callbacks, e.g.:
 The text and click hint on the button can be easily modified.
 The callback function `playMusic01` needs to be implemented in the main code as following:
 ```java
-public void playMusic15(View view) {
+public void playMusic01(View view) {
   // some code
 }
 ```
